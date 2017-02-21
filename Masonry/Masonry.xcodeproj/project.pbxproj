@@ -16,6 +16,7 @@
 		2739DC671E5AC11A00DBB5D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2739DC651E5AC11A00DBB5D1 /* LaunchScreen.storyboard */; };
 		2739DC721E5AC11A00DBB5D1 /* MasonryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2739DC711E5AC11A00DBB5D1 /* MasonryTests.m */; };
 		2739DC7D1E5AC11A00DBB5D1 /* MasonryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2739DC7C1E5AC11A00DBB5D1 /* MasonryUITests.m */; };
+		2739DC8C1E5ACB1B00DBB5D1 /* UIView+ConanViewLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2739DC8B1E5ACB1B00DBB5D1 /* UIView+ConanViewLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		2739DC781E5AC11A00DBB5D1 /* MasonryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasonryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2739DC7C1E5AC11A00DBB5D1 /* MasonryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryUITests.m; sourceTree = "<group>"; };
 		2739DC7E1E5AC11A00DBB5D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2739DC8A1E5ACB1B00DBB5D1 /* UIView+ConanViewLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ConanViewLayer.h"; sourceTree = "<group>"; };
+		2739DC8B1E5ACB1B00DBB5D1 /* UIView+ConanViewLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ConanViewLayer.m"; sourceTree = "<group>"; };
 		D8FC44C1636D3BDEC9A9408A /* libPods-Masonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Masonry.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCA253264383F7BEED1C3B28 /* Pods-Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Masonry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Masonry/Pods-Masonry.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,6 +115,8 @@
 				2739DC5B1E5AC11A00DBB5D1 /* AppDelegate.m */,
 				2739DC5D1E5AC11A00DBB5D1 /* ViewController.h */,
 				2739DC5E1E5AC11A00DBB5D1 /* ViewController.m */,
+				2739DC8A1E5ACB1B00DBB5D1 /* UIView+ConanViewLayer.h */,
+				2739DC8B1E5ACB1B00DBB5D1 /* UIView+ConanViewLayer.m */,
 				2739DC601E5AC11A00DBB5D1 /* Main.storyboard */,
 				2739DC631E5AC11A00DBB5D1 /* Assets.xcassets */,
 				2739DC651E5AC11A00DBB5D1 /* LaunchScreen.storyboard */,
@@ -352,6 +357,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2739DC5F1E5AC11A00DBB5D1 /* ViewController.m in Sources */,
+				2739DC8C1E5ACB1B00DBB5D1 /* UIView+ConanViewLayer.m in Sources */,
 				2739DC5C1E5AC11A00DBB5D1 /* AppDelegate.m in Sources */,
 				2739DC591E5AC11A00DBB5D1 /* main.m in Sources */,
 			);
@@ -593,6 +599,7 @@
 				2739DC831E5AC11A00DBB5D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2739DC841E5AC11A00DBB5D1 /* Build configuration list for PBXNativeTarget "MasonryTests" */ = {
 			isa = XCConfigurationList;
@@ -601,6 +608,7 @@
 				2739DC861E5AC11A00DBB5D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2739DC871E5AC11A00DBB5D1 /* Build configuration list for PBXNativeTarget "MasonryUITests" */ = {
 			isa = XCConfigurationList;
@@ -609,6 +617,7 @@
 				2739DC891E5AC11A00DBB5D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
